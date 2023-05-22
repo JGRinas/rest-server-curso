@@ -1,0 +1,18 @@
+// export * from './categoria';
+// export * from './role';
+// export * from './server';
+// export * from './usuario';
+
+const Categoria = require('./categoria')
+const Role = require('./role')
+const Server = require('./server')
+const Usuario = require('./usuario')
+const Producto = require('./producto')
+
+module.exports = {
+    Categoria,
+    Role,
+    Server,
+    Usuario,
+    Producto
+}
